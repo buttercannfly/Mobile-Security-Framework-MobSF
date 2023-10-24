@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_Mobile_Security_Framework_MobSF_1698118020263-push-trigger-input-set
+  identifier: Build_Mobile_Security_Framework_MobSF_1698118020263pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: testP
+  pipeline:
+    identifier: Build_Mobile_Security_Framework_MobSF_1698118020263
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
